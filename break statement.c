@@ -4,11 +4,12 @@ int main()
   int number;
   printf("Enter number : ");
   scanf("%d",&number);
-  while(n!=0)
+  while(number!=0)
   {
      if(number<0)
        break;
-     printf("%d",number);
+     printf("Enter number : ");
+     scanf("%d",&number);
   }
 
 return 0;
