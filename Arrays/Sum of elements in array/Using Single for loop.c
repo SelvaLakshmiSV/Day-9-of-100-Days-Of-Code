@@ -7,20 +7,11 @@ int main()
 
    printf("Enter array elements:\n");
 
-   //  take 5 number
    for(i=0;i<5;i++)
    {
      scanf("%f",&arr[i]);
+     sum+=arr[i]; // sum=sum+arr[i]
    }
-
-   // add that 5 number
-   for(i=0;i<5;i++)
-   {
-     sum += arr[i]; //sum=sum+arr[i]
-   }
-
    printf("Sum of Array elements are: %f", sum);
-  
-  
-
+   return 0;
 }
